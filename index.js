@@ -5,3 +5,5 @@ function deleteFromObjectByKey(o,k){
   delete o2[k];
   return o2;
 }
+
+function 
