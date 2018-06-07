@@ -7,5 +7,8 @@ function deleteFromObjectByKey(o,k){
 }
 
 function updateObjectWithKeyAndValue(o,k,v){
-  
+  var o2 = Object.assign({},o);
+  o2[k] = v;
+  return o2
 }
+
