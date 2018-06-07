@@ -12,3 +12,10 @@ function updateObjectWithKeyAndValue(o,k,v){
   return o2
 }
 
+function destructivelyUpdateObjectWithKeyAndValue(o,k,v){
+  o[k]=v;
+}
+
+function destructivelyDeleteFromObjectByKey(o,k){
+  delete o[k];
+}
