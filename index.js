@@ -6,4 +6,6 @@ function deleteFromObjectByKey(o,k){
   return o2;
 }
 
-function 
+function updateObjectWithKeyAndValue(o,k,v){
+  
+}
